@@ -1,0 +1,187 @@
+[
+  {
+    "id": "subway",
+    "title": "末班地铁",
+    "description": "玩家在方格棋盘上铺设有限长度的地铁轨道，为不同容量的列车规划运行线路。每个站点都有前往不同目的地的乘客，玩家需要合理安排接送顺序，确保列车不会超载，同时避免不同线路占用同一段轨道。规划完成后，列车将自动运行，成功送达所有乘客即可通关。 核心创意：将地铁线路规划、动态载客量与乘客换乘机制结合。玩家不仅要考虑线路如何连接，还要判断何时接送乘客、如何利用换乘站完成跨线路接力，在有限轨道资源下实现高效运输。游戏通过多重约束形成策略挑战，并以列车运行、乘客上下车和车站逐步清空带来直观的通关成就感。",
+    "descriptionFormat": "plain",
+    "sortOrder": 6,
+    "featuredOrder": 0,
+    "files": [
+      {
+        "id": "97b67c9eb9fa4a6e8b12c423adbdb180",
+        "kind": "cover",
+        "name": "末班地铁：线路规划谜题.png",
+        "url": "./media/97b67c9eb9fa4a6e8b12c423adbdb180/%E6%9C%AB%E7%8F%AD%E5%9C%B0%E9%93%81%EF%BC%9A%E7%BA%BF%E8%B7%AF%E8%A7%84%E5%88%92%E8%B0%9C%E9%A2%98.png"
+      }
+    ],
+    "demo": "experiences/subway/index.html"
+  },
+  {
+    "id": "spacexpress",
+    "title": "星际快递",
+    "description": "一款轻量化3D路线规划解谜游戏。玩家需要在立方体三个相邻表面的预设道路上，为不同颜色的卡车规划运输路线，使其经过指定送货点并抵达终点。不同车辆不能重复使用同一道路段，部分跨面道路还存在单向通行限制，需要合理分配道路资源，完成所有车辆的运输任务。 核心创意：将传统二维路线规划拓展到立方体的三个连续表面。玩家不仅需要考虑单辆卡车的路线，还需要通过跨面绕行、关键道路争夺和多车协同，寻找全局可行解。游戏的难度来自三维空间中的道路连接关系和车辆间的相互制约，而非复杂的操作。",
+    "descriptionFormat": "plain",
+    "sortOrder": 6,
+    "featuredOrder": 0,
+    "files": [
+      {
+        "id": "efd4ed0191744991b750e0162fb3085e",
+        "kind": "cover",
+        "name": "1b2a089c-1ef7-4db1-9147-174a856b28dc.png",
+        "url": "./media/efd4ed0191744991b750e0162fb3085e/1b2a089c-1ef7-4db1-9147-174a856b28dc.png"
+      }
+    ],
+    "trial": "trials/b7bf323bd9c5432687074b6f9dc31c2a/index.html",
+    "demo": "experiences/spacexpress/index.html"
+  },
+  {
+    "id": "sample-1",
+    "title": "Wordetective",
+    "description": "**静态试用网址**：https://wordetective.moyuyahehe.workers.dev/#/\n（仅支持规则审查，尚未公开agent智能审查相关代码）\n\n# **简介：**\nWordetective是一款面向美妆个护行业的营销文案审查工具。 它主要用在发布前。运营或审核人员把商品详情页、推广文案贴进去，选择目标市场和发布平台，就能看到哪些原句有风险、为什么被标记，以及可以怎么改。目前智能审查覆盖中国和美国市场。\n\n![照片](asset:a84afafda09c437c943b6215ec44886e)\n\n比如，一段精华液文案里写了「7 天彻底祛斑」。审核人员可以直接定位到这句话，重点核查「7 天」有没有证据支撑，以及「彻底」是否把产品效果说得过满。系统会给出风险等级和改写建议，方便团队决定哪些句子先改。\n\n![照片](asset:54ad047e3d6c462299e76bfb1e6d33ca)\n\n![照片](asset:2e0de36cb51c41cb8f1e30c7ae005472)\n\n项目的核心是规则检测和智能审查。规则检测用关键词、正则表达式和上下文判断来找风险，适合快速筛查常见表述。智能审查在这个基础上用大模型分析整句话传达的意思，补充规则可能漏掉的风险，按优先级给出修改建议，再把改写稿跑一遍规则检测，展示修改前后的风险变化。\n\n项目也做了历史记录、案例库、规则管理和报告导出，方便团队回看审查结果、维护自己的审核规则。技术上采用 React 前端、FastAPI 后端，使用 SQLite 保存业务数据。\n\n![照片](asset:5abce191129d47b1abc82c305429f3df)\n",
+    "descriptionFormat": "formatted",
+    "sortOrder": 2,
+    "featuredOrder": 4,
+    "files": [
+      {
+        "id": "a84afafda09c437c943b6215ec44886e",
+        "kind": "photo",
+        "name": "image.png",
+        "url": "./media/a84afafda09c437c943b6215ec44886e/image.png"
+      },
+      {
+        "id": "54ad047e3d6c462299e76bfb1e6d33ca",
+        "kind": "photo",
+        "name": "image.png",
+        "url": "./media/54ad047e3d6c462299e76bfb1e6d33ca/image.png"
+      },
+      {
+        "id": "2e0de36cb51c41cb8f1e30c7ae005472",
+        "kind": "photo",
+        "name": "image.png",
+        "url": "./media/2e0de36cb51c41cb8f1e30c7ae005472/image.png"
+      },
+      {
+        "id": "5abce191129d47b1abc82c305429f3df",
+        "kind": "photo",
+        "name": "image.png",
+        "url": "./media/5abce191129d47b1abc82c305429f3df/image.png"
+      },
+      {
+        "id": "026acdb8fd9c4cd5a7632902d1a47641",
+        "kind": "cover",
+        "name": "download.png",
+        "url": "./media/026acdb8fd9c4cd5a7632902d1a47641/download.png"
+      }
+    ],
+    "demo": "experiences/sample-1/index.html",
+    "runUrl": "https://wordetective.moyuyahehe.workers.dev/#/"
+  },
+  {
+    "id": "df56fc29cc53453db236e8062bf31bf3",
+    "title": "幕词",
+    "description": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"幕词 Scene 是一款在本机运行的英语学习工具，适合想通过追剧、看视频和读英文原著积累词汇的人。平时看剧遇到生词，切出去查容易打断剧情，顺手记下又常常忘了它出现在哪一幕。幕词把查词、收藏和复习放进同一个应用，让用户从自己感兴趣的内容里学英语。\"}]},{\"type\":\"image\",\"attrs\":{\"assetId\":\"8bb934cdad3841f0bd032a0fcb15215c\"}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"看剧时，点击画面中的英文字幕，就能查看单词的音标、词性和中文释义，也可以顺手收藏，播放会继续。遇到没听清的对白，可以放慢速度，或打开随播放滚动的字幕列表，回看前后几句。字幕支持中英双语、仅英文和仅中文。用户可以导入本地视频或 YouTube 视频，缺少英文字幕时，应用可在本机识别语音并生成机器译文。\"}]},{\"type\":\"image\",\"attrs\":{\"assetId\":\"ebafb028684f4395b9e94bc5da72d930\"}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"收藏单词时，应用会保存它所在的原句和对应的播放时间。同一个词在不同剧集或场景中出现，可以保留多条来源，复习时直接跳回那段对白，听听人物当时怎么说。遇到想学的口语表达，也可以选中短语或整句收藏。应用会根据用户标记的掌握情况安排间隔复习，把看剧时随手存下的内容变成之后能温习的素材。\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"除了视频，幕词也提供英文长篇、诗集和杂志阅读。\"}]},{\"type\":\"image\",\"attrs\":{\"assetId\":\"ac44a6a57d1a490c8784f2712f1f5e94\"}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"读到生词可以在正文中点查，喜欢的句子可以连同出处一起收藏，下次打开还能从上次的位置继续。无论是一句台词还是一段原文，用户都能把它带回原来的语境里再读一遍。\"}]},{\"type\":\"image\",\"attrs\":{\"assetId\":\"5fbbc6c8d0f44405bf863d3a1c7fc70b\"}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null}}]}",
+    "descriptionFormat": "rich",
+    "sortOrder": 1,
+    "featuredOrder": 1,
+    "files": [
+      {
+        "id": "80f98c6bd48642129c1e7425d9521875",
+        "kind": "cover",
+        "name": "exec-55530a73-bea4-4dfa-b6df-337a3089463f.png",
+        "url": "./media/80f98c6bd48642129c1e7425d9521875/exec-55530a73-bea4-4dfa-b6df-337a3089463f.png"
+      },
+      {
+        "id": "8bb934cdad3841f0bd032a0fcb15215c",
+        "kind": "photo",
+        "name": "image.png",
+        "url": "./media/8bb934cdad3841f0bd032a0fcb15215c/image.png"
+      },
+      {
+        "id": "ebafb028684f4395b9e94bc5da72d930",
+        "kind": "photo",
+        "name": "屏幕截图 2026-11-16 233056.png",
+        "url": "./media/ebafb028684f4395b9e94bc5da72d930/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-11-16%20233056.png"
+      },
+      {
+        "id": "ac44a6a57d1a490c8784f2712f1f5e94",
+        "kind": "photo",
+        "name": "屏幕截图 2026-11-16 233224.png",
+        "url": "./media/ac44a6a57d1a490c8784f2712f1f5e94/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-11-16%20233224.png"
+      },
+      {
+        "id": "5fbbc6c8d0f44405bf863d3a1c7fc70b",
+        "kind": "photo",
+        "name": "image.png",
+        "url": "./media/5fbbc6c8d0f44405bf863d3a1c7fc70b/image.png"
+      }
+    ]
+  },
+  {
+    "id": "e1809ab363934228848afadbeb8acd43",
+    "title": "DPetty",
+    "description": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"DPetty 是一款桌面效率伴侣。项目的核心是帮助用户用 Status 管理不同工作情境，并尽可能自动恢复相应的应用与窗口环境；桌面宠物提供陪伴，也会随着工作状态呈现相应反馈。提醒、活动统计和 Codex Reset Monitor 则补充了工作过程中的时间与进度管理。\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"Status 管理与工作环境恢复是项目的主线。用户可以为学习、工作、游戏或休息等情境创建 Status，并配置关联的应用和窗口布局。切换 Status 时，DPetty 会发现相关应用，启动或复用应用窗口，再尝试匹配窗口并恢复布局。执行结果会逐项呈现，也支持取消。它的作用是把“进入某种工作情境”从逐个打开软件、整理窗口，变成一次有记录、可重复的切换。如开机后自动启动，点击status运行后自动打开相关应用并配置到对应的窗口与虚拟桌面等。\"}]},{\"type\":\"image\",\"attrs\":{\"assetId\":\"412adfd28e5d4c589b6e2565aa226960\"}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"Codex Reset Monitor用于监测 Codex 的重置相关信息。启用后，后台能够事实检测Codex重置相关帖子与信号，帮助用户及时掌握重置情况，为保存进度、安排工作和衔接后续任务提供参考。\"}]},{\"type\":\"image\",\"attrs\":{\"assetId\":\"07efb92824144f11aa924e0fb2f9f994\"}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"提醒管理负责记录需要在指定时间处理的事项。提醒可设置到期时间与独立的提醒时间。应用运行期间，后台会检查到期提醒并显示应用内提示。\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"活动统计与软件时长追踪帮助用户回看时间投入。统计可以汇总整体及各 Status 的活跃、空闲时间。在本地保存每日运行时长，统计页按总时长展示常用应用，并区分前台、后台和未分类时间。\"}]},{\"type\":\"image\",\"attrs\":{\"assetId\":\"d336290977ab4734a804a1e0b5e60429\"}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null}},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"整体设计上，DPetty 将这些能力围绕本地桌面工作流组织起来：Status 负责定义情境，执行链负责恢复环境，提醒和统计补足时间管理，Codex Reset Monitor关注使用周期，而桌面宠物则提供状态反馈与陪伴。配置和业务状态以本地管理为主，执行能力按系统与应用支持情况启用，并在能力不足时提供相应回退。\"}]}]}",
+    "descriptionFormat": "rich",
+    "sortOrder": 3,
+    "featuredOrder": 2,
+    "files": [
+      {
+        "id": "412adfd28e5d4c589b6e2565aa226960",
+        "kind": "photo",
+        "name": "image.png",
+        "url": "./media/412adfd28e5d4c589b6e2565aa226960/image.png"
+      },
+      {
+        "id": "07efb92824144f11aa924e0fb2f9f994",
+        "kind": "photo",
+        "name": "image.png",
+        "url": "./media/07efb92824144f11aa924e0fb2f9f994/image.png"
+      },
+      {
+        "id": "d336290977ab4734a804a1e0b5e60429",
+        "kind": "photo",
+        "name": "image.png",
+        "url": "./media/d336290977ab4734a804a1e0b5e60429/image.png"
+      },
+      {
+        "id": "8110bc286f604832b3f0d85da8b11262",
+        "kind": "cover",
+        "name": "exec-b1140119-6f48-453c-aa23-c74f77d88f48.png",
+        "url": "./media/8110bc286f604832b3f0d85da8b11262/exec-b1140119-6f48-453c-aa23-c74f77d88f48.png"
+      }
+    ]
+  },
+  {
+    "id": "5323332e0d2741f4b7161db287b77d60",
+    "title": "College Counter",
+    "description": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"College Counter 是一款面向课程学习与研究资料管理的本地资料工作台。它帮助用户把分散在文件夹中的讲义、论文、笔记等资料组织起来，并围绕这些资料进行检索、问答和知识整理。项目以原始文件为事实依据，强调回答能够回到具体资料与原文位置，方便用户核对内容。\"}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"项目的核心功能包括：\"}]},{\"type\":\"bulletList\",\"content\":[{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"bold\"}],\"text\":\"资料导入与归档\"},{\"type\":\"text\",\"text\":\"：用户可以设置自己的知识库文件夹，并将资料导入工作台。导入的文件会先复制到应用收件箱，再按课程或研究项目归档；原始资料保持不变，归档操作支持撤销。\"}]}]}]},{\"type\":\"image\",\"attrs\":{\"assetId\":\"63b1d703111c4738acf8f8e22d299086\"}},{\"type\":\"bulletList\",\"content\":[{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"bold\"}],\"text\":\"资料解析与检索\"},{\"type\":\"text\",\"text\":\"：系统按文件格式解析资料内容，建立可用于检索的索引。用户可以用关键词或自然语言查找相关内容，并查看匹配资料及其上下文。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"bold\"}],\"text\":\"基于资料的问答\"},{\"type\":\"text\",\"text\":\"：用户可以针对本地资料提问。回答以检索到的原文证据为基础，并尽可能展示来源文件和位置；当检索覆盖有限时，系统会说明范围限制。\"}]}]}]},{\"type\":\"image\",\"attrs\":{\"assetId\":\"a1adb2c511784986b545f86cf62e4275\"}},{\"type\":\"bulletList\",\"content\":[{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"bold\"}],\"text\":\"课程内容提取与比较\"},{\"type\":\"text\",\"text\":\"：系统可以从课程资料中提取主题、概念和重点，也可以比较不同资料中的观点。对于实质不同的说法，会保留各自来源，便于用户判断。\"}]}]},{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"bold\"}],\"text\":\"Wiki 知识整理\"},{\"type\":\"text\",\"text\":\"：工作台能够将资料整理成相互关联的知识条目、综述及其原文依赖，帮助用户积累可持续维护的课程或研究知识，而不只是生成一次性摘要。\"}]}]}]},{\"type\":\"image\",\"attrs\":{\"assetId\":\"16864f57085d49b194ded85ef5a2958c\"}},{\"type\":\"bulletList\",\"content\":[{\"type\":\"listItem\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"bold\"}],\"text\":\"来源定位与核验\"},{\"type\":\"text\",\"text\":\"：用户可以从回答或知识条目跳转到相关原文上下文，检查信息是否受到资料支持。若文件被修改或删除，与其相关的旧证据和派生知识也应相应失效。\"}]}]}]},{\"type\":\"paragraph\",\"attrs\":{\"textAlign\":null},\"content\":[{\"type\":\"text\",\"text\":\"College Counter 的目标，是让资料管理、内容检索和知识积累形成连贯的学习流程：用户既能快速找到需要的信息，也能追溯信息来自哪里，并逐步把零散材料沉淀为可查询、可验证的知识体系。\"}]}]}",
+    "descriptionFormat": "rich",
+    "sortOrder": 5,
+    "featuredOrder": 2,
+    "files": [
+      {
+        "id": "a1adb2c511784986b545f86cf62e4275",
+        "kind": "photo",
+        "name": "image.png",
+        "url": "./media/a1adb2c511784986b545f86cf62e4275/image.png"
+      },
+      {
+        "id": "63b1d703111c4738acf8f8e22d299086",
+        "kind": "photo",
+        "name": "image.png",
+        "url": "./media/63b1d703111c4738acf8f8e22d299086/image.png"
+      },
+      {
+        "id": "16864f57085d49b194ded85ef5a2958c",
+        "kind": "photo",
+        "name": "image.png",
+        "url": "./media/16864f57085d49b194ded85ef5a2958c/image.png"
+      },
+      {
+        "id": "797da43276d44e63b7fd2add5bbce90e",
+        "kind": "cover",
+        "name": "exec-cb2f06c5-033d-44aa-9680-2b1f409bfb71.png",
+        "url": "./media/797da43276d44e63b7fd2add5bbce90e/exec-cb2f06c5-033d-44aa-9680-2b1f409bfb71.png"
+      }
+    ]
+  }
+]

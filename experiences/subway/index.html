@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4f6f7">
+  <title>末班地铁</title>
+  <link rel="stylesheet" href="styles/demo.css">
+</head>
+<body class="at-home">
+  <main class="game" id="game">
+    <canvas id="scene" tabindex="0" aria-label="铁路棋盘。点击车库切换列车，按住拖动铺轨；方向键选格，回车铺轨。"></canvas>
+    <header class="hud-top game-only">
+      <div class="level-controls"><span class="level-number" id="level-number">01 <small>/ 60</small></span><button class="icon-button view-toggle" id="view-toggle" aria-label="缩放查看地图" hidden></button><div class="view-tools" id="view-tools" hidden><button class="icon-button" id="zoom-out" aria-label="缩小地图"></button><button class="icon-button" id="view-fit" aria-label="地图全景"></button><button class="icon-button" id="zoom-in" aria-label="放大地图"></button></div></div>
+      <div class="top-actions"><button class="icon-button" id="reset" aria-label="重新开始" title="重新开始"></button><button class="icon-button" id="settings" aria-label="设置" title="设置"></button></div>
+    </header>
+    <div class="notice game-only" id="message" role="status" aria-live="polite"></div>
+    <footer class="hud-bottom game-only">
+      <div class="inventory" aria-label="车辆和剩余铁轨"><div id="vehicles"></div><div class="rail-stock" id="rail-stock"></div></div>
+      <div class="bottom-actions"><button class="icon-button" id="undo" aria-label="撤销" title="撤销"></button><button class="icon-button" id="hint" aria-label="局部提示" title="局部提示"></button><button class="run-button" id="run" aria-label="发车"></button></div>
+    </footer>
+    <section class="home" id="home" aria-label="主页">
+      <button class="icon-button home-settings" id="home-settings" aria-label="设置"></button>
+      <div class="home-copy"><h1>末班地铁</h1><div class="home-actions"><button class="primary" id="start">继续旅程</button><button class="text-button" id="home-levels">关卡选择</button></div></div>
+    </section>
+  </main>
+  <dialog id="dialog"><button id="close-dialog" class="icon-button close" aria-label="关闭"></button><div id="dialog-content"></div></dialog>
+  <div id="tutorial-overlay" hidden aria-hidden="true"></div>
+  <aside id="tutorial-task" hidden aria-live="polite"></aside>
+  <dialog id="tutorial-dialog" class="tutorial-dialog" aria-labelledby="tutorial-title"><div id="tutorial-content"></div></dialog>
+  <script src="src/scene.js"></script>
+  <script src="src/station-marks.js"></script>
+  <script src="src/levels.js"></script>
+  <script src="src/levels-extra.js"></script>
+  <script src="src/levels-late.js"></script>
+  <script src="src/levels-hard.js"></script>
+  <script src="src/levels-expansion.js"></script>
+  <script src="src/levels-expansion-hard.js"></script>
+  <script src="src/levels-finale.js"></script>
+  <script src="src/levels-triple.js"></script>
+  <script src="src/hints.js"></script>
+  <script src="src/engine.js"></script>
+  <script src="src/hint-planner.js"></script>
+  <script src="src/transfer-effects.js"></script>
+  <script src="src/world.js"></script>
+  <script src="src/scenery.js"></script>
+  <script src="src/playback.js"></script>
+  <script src="src/celebration.js"></script>
+  <script src="src/ui.js"></script>
+  <script src="src/tutorial.js"></script>
+  <script src="src/tutorial-lessons.js"></script>
+  <script src="src/lesson-runtime.js"></script>
+  <script src="src/drafts.js"></script>
+  <script src="src/failure-feedback.js"></script>
+  <script src="src/hint-feedback.js"></script>
+  <script src="src/main.js"></script>
+  <script src="src/input.js"></script>
+  <script src="src/map-view.js"></script>
+  <script src="src/home-scene.js"></script>
+</body>
+</html>
